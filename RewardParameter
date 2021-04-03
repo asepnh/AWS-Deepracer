@@ -35,7 +35,7 @@ def reward_function(params):
     if steering > ABS_STEERING_THRESHOLD:
         reward *= 0.8
 
-    # Reward if the car is fast
+    # Increase reward if the car is fast
     if speed > SPEED_THRESHOLD:
         reward *= 1.5 
 
